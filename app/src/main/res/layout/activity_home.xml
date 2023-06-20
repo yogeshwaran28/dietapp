@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/toolsz"
+    xmlns:tools2="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    app:flow_verticalAlign="center">
+<LinearLayout
+
+    android:layout_height="wrap_content"
+    tools:context=".home"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="8dp"
+        android:text="Wecome"
+        android:textColor="#a6371a"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        android:gravity="center_horizontal" />
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/imgback"
+        android:layout_gravity="center"
+        android:id="@+id/diett"
+        android:src="@drawable/diet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools2:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Diet Control"
+        android:textColor="#a6371a"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        tools2:layout_editor_absoluteY="408dp" />
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:background="@drawable/imgback"
+        android:id="@+id/healthh"
+        android:src="@drawable/health"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.591"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools2:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Health Monitor"
+        android:textColor="#a6371a"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        tools2:layout_editor_absoluteY="796dp" />
+
+
+    <ImageButton
+        android:layout_width="300dp"
+        android:id="@+id/remm"
+        android:layout_height="300dp"
+        android:background="@drawable/imgback"
+        android:src="@drawable/rem"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.591"
+        app:layout_constraintStart_toStartOf="parent"
+        tools2:ignore="MissingConstraints"
+        tools2:layout_editor_absoluteY="868dp" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Reminder"
+        android:textColor="#a6371a"
+        android:textSize="30sp"
+        android:textAlignment="center"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools2:layout_editor_absoluteY="1186dp" />
+
+
+
+</LinearLayout>
+    </ScrollView>

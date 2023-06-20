@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/toolsz"
+    xmlns:tools2="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    app:flow_verticalAlign="center">
+<android.support.v7.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+
+    <TextView
+        android:id="@+id/south_indian_breakfast_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/breakfast"
+        android:textColor="@color/white"
+        android:background="@drawable/imgback"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/idli"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:background="@drawable/imgback"
+        android:text="@string/dosa"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/dosa"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:background="@drawable/imgback"
+        android:text="@string/idly"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/upma"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@drawable/imgback"
+        android:text="@string/pongal"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/pongal"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:background="@drawable/imgback"
+        android:layout_height="wrap_content"
+        android:text="@string/upma"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lunch"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:background="@drawable/imgback"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/grilled_chicken"
+        android:background="@drawable/imgback"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/grilled"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/brown_rice"
+        android:layout_width="match_parent"
+        android:background="@drawable/imgback"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/br"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/broccoli"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:background="@drawable/imgback"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="@string/broccoli"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/south_indian_dinner_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:text="@string/ndinner_n"
+        android:background="@drawable/imgback"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/rice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@drawable/imgback"
+        android:text="@string/rice"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/sambar"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@drawable/imgback"
+        android:layout_height="wrap_content"
+        android:text="@string/sam"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/dal"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@drawable/imgback"
+        android:text="@string/dal"
+        android:gravity="center_horizontal" />
+
+</android.support.v7.widget.LinearLayoutCompat>
+</ScrollView>

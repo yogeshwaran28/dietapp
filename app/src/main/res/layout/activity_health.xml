@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".health"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:background="@color/welb">
+
+
+        <TextView
+            android:id="@+id/heart_rate_l"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="79dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="Heart Rate:"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/heart_rate_i"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/imgback"
+            android:gravity="center_horizontal"
+            android:hint="Enter heart rate"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/bp_l"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="Blood Pressure:"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/systolic_i"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/imgback"
+            android:gravity="center_horizontal"
+            android:hint="Enter systolic blood pressure"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/diastolic_i"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/imgback"
+            android:gravity="center_horizontal"
+            android:hint="Enter diastolic blood pressure"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/sugar_l"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:padding="8dp"
+            android:text="Sugar Level:"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="16sp"
+             />
+
+        <EditText
+            android:id="@+id/sugar_i"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/imgback"
+            android:gravity="center_horizontal"
+            android:hint="Enter sugar level"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:id="@+id/btbt"
+             android:layout_marginTop="102dp"
+            android:layout_marginBottom="22dp"
+            android:hint="calculate"
+            android:shadowColor="@color/black"
+            android:shadowDx="1"
+            android:shadowDy="2"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/health_s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center_horizontal"
+            android:text="Your health..."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/recom"
+
+
+            android:gravity="center_horizontal"
+            android:text="Recommendation"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"  android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

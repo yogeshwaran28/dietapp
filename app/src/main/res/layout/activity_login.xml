@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup"
+    android:background="@drawable/sb">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="165dp"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="34dp"
+        android:gravity="center_horizontal"
+        android:text="@string/log"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:foregroundGravity="center_horizontal"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="139dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:background="#30ff" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:drawableLeft="@drawable/phone"
+        android:drawablePadding="20dp"
+        android:hint="@string/phone"
+        android:drawableStart="@drawable/phone"
+        android:autofillHints="phone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="250dp"
+        android:inputType="numberPassword"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="313dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:drawableLeft="@drawable/pass"
+        android:drawablePadding="20dp"
+        android:hint="@string/password"
+        android:drawableStart="@drawable/pass"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/buttonlog"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginBottom="170dp"
+        android:background="@color/btn"
+        android:clickable="true"
+        android:padding="10dp"
+        android:text="@string/log"
+        android:textColor="@color/welt"
+
+        android:textSize="20sp"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/tb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="111dp"
+        android:layout_marginRight="111dp"
+        android:layout_marginBottom="91dp"
+        android:clickable="true"
+        android:text="@string/create_account"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        android:focusable="true" />
+
+</RelativeLayout>

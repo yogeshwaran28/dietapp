@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Doczcare</string>
+    <string name="wel">Welcome To Doczcare!</string>
+    <string name="log">Login</string>
+    <string name="sig">Sign up</string>
+    <string name="a">s</string>
+    <string name="aj">df</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="grilled">\nGrilled Chicken \n\nCalories: 200\nCarbs: 4g\nProtein: 30g\nFat: 7g\n</string>
+    <string name="breakfast">\nBreakfast\n</string>
+    <string name="dosa">\nIdly \n\nCalories: 39 per piece\nFat: 0.2g\nCarbs: 7.5g\nProtein: 1.2g\n</string>
+    <string name="idly">\nDosa \n\nCalories: 133 per dosa\nFat: 2g\nCarbs: 23g\nProtein: 4g\n</string>
+    <string name="pongal">\nUpma \n\nCalories: 150 per serving\nFat: 6g\nCarbs: 21g\nProtein: 3g\n</string>
+    <string name="upma">\nPongal \n\nCalories: 175 per serving\nFat: 2.7g\nCarbs: 32g\nProtein: 7g\n</string>
+    <string name="lunch">\nLunch\n</string>
+    <string name="br">\nBrown Rice\n\n Calories: 120\nCarbs: 26g\nProtein: 2g\nFat: 1g\n</string>
+    <string name="broccoli">\nBroccoli \n\nCalories: 50\nCarbs: 10g\nProtein: 5g\nFat: 0g\n</string>
+    <string name="ndinner_n">\nDinner\n</string>
+    <string name="rice">\nRice\n\nCalories: 205 per serving\nFat: 1.5g\nCarbs: 45g\nProtein: 4g\n</string>
+    <string name="sam">\nSambar\n\nCalories: 95 per serving\nFat: 3g\nCarbs: 14g\nProtein: 4g\n</string>
+    <string name="dal">\nDal\n\nee\n 2g\nCarbs: 28g\nProtein: 11g\n</string>
+    <string name="create_account">Create account</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone</string>
+    <string name="schedule_notification">Schedule Notification</string>
+    <string name="enter_medicine_name">Enter medicine name</string>
+
+</resources>
